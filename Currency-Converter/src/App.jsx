@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css'
 import converter from './assets/converter.svg';
 import { useEffect } from 'react';
-
+//States
 function App() {
   const[amount,setAmount]=useState(1);
   const[fromCurrency,setFromCurrency]=useState("USD")
