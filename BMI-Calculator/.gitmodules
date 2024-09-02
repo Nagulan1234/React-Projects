@@ -1,0 +1,3 @@
+[submodule "BMI-Calculator"]
+	path = BMI-Calculator
+	url = https://github.com/Nagulan1234/React-Projects.git

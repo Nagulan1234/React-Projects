@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow:  0 4px 8px rgb(0, 0, 0,0.1);
+}
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityinput{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  margin-left: 10px;
+}
+.image img{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+   /* Full viewport height */
+   max-width: 70%; /* Ensure the image scales properly */
+   height: auto; /* Maintain aspect ratio */
+   margin-left: 60px;
+}
+.icon img{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+   /* Full viewport height */
+   max-width: 15%; /* Ensure the image scales properly */
+   height: auto; /* Maintain aspect ratio */
+   margin-left: 100px;
+}
+.temp,
+.location,
+.contary{
+  margin: 5px;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  color: #ffbc00;
+  font-weight: 400;
+  font-size: 40px;
+}
+.contary{
+  font-size: 18px;
+  color: #888;
+  font-weight: 500;
+}
+.coard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.coard div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.coard div span{
+  font-size: 14px;
+}
+.humidity-percentage,
+.wind-percentage,
+.coard div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 5px;
+}
+.humi-win{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.humi-icon{
+  display: flex;
+  max-width: 50px;
+  height: auto;
+
+}
+.wind-icon{
+  display: flex;
+  max-width: 50px;
+  height: auto;
+  margin-left: 20px;
+}
+.element{
+  text-align: center;
+}
+.text{
+  font-size: 12px;
+  color: #888;
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+.copyright span{
+  color:red;
+  max-width: 100%;
+}
+.city-not-found,
+.error-message{
+  margin-top: 10px;
+  color: red;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.loading-message{
+  margin-top: 10px;
+  color: #888;
+  font-size: 50px;
+  text-align: center;
+  height: 400;
+  width: 400;
+
+}
+
+
+
+
+  
