@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import './App.css'
-import converter from './assets/converter.svg';
+import converter from './assets/Images/converter.svg';
 import { useEffect } from 'react';
 //States
 function App() {
